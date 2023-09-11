@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: 'Poppins', sans-serif;    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 5000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #444;
+    height: 60px;
+    
+}
+
+header section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative ;
+    margin:0px 150px;
+
+    
+}
+
+.Signup{
+    background-color: #444;
+    border: 1px solid #929292;
+    padding: 10px 20px;
+    margin-right:15px ;
+    
+
+    
+}
+
+.Signup:hover{
+    background-color: #929292;
+}
+
+.icon{
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    color: #F1F1F1;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.car{
+    padding: 18px 0px;
+}
+
+
+
+.shoping{
+    margin: 20px;
+    color: #F1F1F1;
+}
+
+
+.car:hover{
+    background-color: #929292;
+
+}
+
+
+.tsnif{
+    color: #F1F1F1;
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+
+
+.link{
+    text-decoration: none;
+}
+
+.tsnifm{
+    padding: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.tsnifm:hover{
+    background-color:#929292 ;
+}
+
+.main{
+
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    min-height: 100vh;
+    width: 100%;
+    background: url(pictures/back3.jpg) no-repeat ;
+    background-size: cover;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.head h1{
+    position:absolute;
+    bottom: 430px;
+    left: 470px;
+    font-size:2.5em;
+    font-weight:400;
+
+
+}
+
+.shead{
+    position: absolute;
+    bottom: 380px;
+    
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
+
+.search{
+    position:absolute;
+    bottom: 270px;
+
+}
+
+
+.input{
+    padding:22px 20px ;
+    border: 1px solid #ccc;
+}
+
+.input:placeholder-{
+    border: 1px solid green;
+}
+
+.find{
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    background: #52b035;
+    color: white;
+    padding: 13px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    transition: 0.2s ease;
+}
+
+.find-{
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.find:hover{
+    background-color: #408929;
+}
+
+
+.First h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4em;
+    font-weight: 100;
+    margin: 100px 0px 70px 0px ;
+    line-height:48px ;
+    color: #52b035;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 18px;
+    max-width: 1400px;
+    margin-right:auto ;
+    margin-left:auto ;
+
+}
+
+
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+
+}
+
+
+.part img{
+    
+    width: 320px;
+    height: 190px;
+}
+.part h1{
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    color: white;
+
+}
+
+.body2{
+    background: #F1F1F1 ;
+    min-height: 1000px;
+}
+
+.contener2{
+
+    margin-top: 90px;
+    padding-top: 100px;
+
+}
+
+.head2 {
+    color: #52b035;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 400;
+
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.div{
+    position: relative;
+    background-color: white;
+    margin-right:25px ;
+    padding: 10px;
+    width: 26%;
+    height: 180px;
+}
+
+
+.div h1{
+    direction: rtl;
+    position: absolute;
+    top: 10%;
+    right: 100px;
+    font-weight: 400;
+    font-size: 1.7em;
+    
+
+}
+
+.div p{
+   direction: rtl;
+   position: absolute;
+   top: 40%;
+   right: 100px;
+   font-weight: 300;
+
+    
+}
+
+
+.num1{
+    border:1px solid white;
+    background-color: #52b035;
+    width: 44px;
+    height: 44px;
+    padding-left: 18px;
+    color: white;
+    border-radius: 50%;
+    line-height: 44px;
+    z-index: 10;
+    position: absolute;
+    top: 160px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.num2{
+    border:1px solid white;
+    background-color: #52b035;
+    width: 44px;
+    height: 44px;
+    padding-left: 15px;
+    color: white;
+    border-radius: 50%;
+    line-height: 44px;
+    z-index: 10;
+    position: absolute;
+    top: 160px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.num3{
+    border:1px solid white;
+    background-color: #52b035;
+    width: 44px;
+    height: 44px;
+    padding-left: 15px;
+    color: white;
+    border-radius: 50%;
+    line-height: 44px;
+    z-index: 10;
+    position: absolute;
+    top: 160px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.div img{
+    width:55px ;
+    height: 55px;
+    position: absolute;
+    right: 6%;
+    top: 30%;
+
+
+}
+
+a{
+   text-decoration: none; 
+}
+
+.all1{
+    width: 100%;
+    padding: 250px 175px 100px 149px ; 
+}
+ 
+
+.head4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.title1 a{
+    font-size: 1.5em;
+    color: black;
+    position: absolute;
+    right: 20px;
+}
+
+.title2 a{
+    font-size:1.1em;
+    color: #52b035;
+    border: 1px solid #52b035;
+    padding: 10px;
+    transition: 0.2s ease;
+}
+
+.title2 a:hover{
+    color: white;
+    background-color: #52b035;
+}
+
+.parts{
+    margin-top: 70px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:30px ;
+}
+
+.item{
+    width: 300px;
+    margin-right: 19px;
+    margin-left: 19px;
+    
+    
+}
+
+.item img{
+    width: 315px;
+}
+
+.item a{
+    font-size: 0.1em;
+    color: black;
+}
+
+.item a:hover{
+    color: #52b035;
+}
+
+
+.item span{
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.star{
+    color: #fa9747;
+    font-size: 10px;
+}
+
+
+.sign{
+    background-color: #444;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sign h1{
+    position: absolute;
+    color: #fff;
+    top: 60px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.sign h2{
+    position: absolute;
+    color: #fff;
+    top: 130px;
+    right: 46.9%;
+    background-color: #52b035;
+    padding: 13px 20px;
+    font-size: 1.4em;
+    font-weight: 400;
+    transition: 0.2s ease;
+}
+
+.sign h2:hover{
+    background-color: #3f872a;
+}
+
+.sec{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 40px 200px;
+
+}
+
+.sec div a{
+    color: #52b035;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.sec div h4{
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom:15px ;
+}
+
+
+.sec div i{
+    font-size: 2em;
+    margin-right:7px ;
+    margin-bottom:40px ;
+    
+
+}
+
+.fa-square-facebook{
+    color: #3b5998;
+}
+
+.fa-square-twitter{
+    color: #55acee;
+}
+
+.fa-cc-paypal{opacity: .5;}
+.fa-cc-mastercard{opacity: .5;}
+.fa-cc-visa{opacity: .5;}
+
+.lastnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F1F1F1;
+    padding: 22px 150px;
+}
+
+
+.lastnav div a{
+    color: #444;
+    margin-left:15px ;
+    font-weight: 500;
+    opacity: .8;
+}
+
+
+
+.lastnav div p{
+    font-size: .9em;
+    opacity: .8;
+}
+
+footer{
+
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+footer section img{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    position: absolute;
+    right: 800px;
+
+}
+
+.lastinfo{
+
+    padding-top:70px ;
+    position: absolute;
+    right: 300px;
+    left: 300px;
+    padding-bottom: 70px;
+}
+
+.lastinfo1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+.lastinfo a{
+    color: #444;
+
+    
+
+    
+}
+
+.lastinfo h5{
+    font-size: .3em;
+    font-weight: 500;
+    opacity: .9;
+}
+
+.lastinfo p{
+    font-size: .3em;
+    opacity: .7;
+
+}
+
+.lastinfo2{
+    padding-top: 30px;
+    display: flex;
+    position: absolute;
+    left: 490px;
+    padding-bottom: 70px;
+    
+}
+
+.lastinfo2 a{
+
+   margin-left: 23px;
+}
